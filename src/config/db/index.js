@@ -4,7 +4,7 @@ const db = require("../../app/models");
 const Role = db.role;
 
 const url =
-  "mongodb+srv://diemquyen3393:010601@cluster0.oesvtlp.mongodb.net/cof?retryWrites=true&w=majority";
+  "mongodb+srv://diemquyen3393:010601@cluster0.oesvtlp.mongodb.net/coffee?retryWrites=true&w=majority";
 
 async function connect() {
   try {
